@@ -1,0 +1,166 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.content
+{
+    max-width: 800px;
+    margin: auto;
+    background: #e9ebee;
+    font-family: tahoma;
+}
+.head
+{
+    text-align: center;
+}
+.img-cover
+{
+    width: 100%;
+
+}
+.img-prof 
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -200px;
+}
+.head h3{
+    color: #2727d6;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.head ul li
+{
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.head ul li a
+{
+    color: rgb(19, 19, 51);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.head ul li a:hover
+{
+    color: #803e00;
+    transition: 0.6s;
+}
+.row
+{
+    display: flex;
+    padding: 10px;
+}
+.col1
+{
+    flex: 1;
+    background: #fff;
+
+}
+.col2
+{
+    flex: 2.5;
+
+}
+.comment
+{
+    width: 90%;
+    margin: auto;
+    border: solid #aaa 0.5px;
+    padding: 10px;
+    height: 130px;
+    background: #fff;
+
+}
+textarea
+{
+    width: 100%;
+    height: 100px;
+    outline: none;
+    border: none;
+    font-size:15px ;
+    font-weight: bold;
+    color: #333;
+}
+.btn-post
+{
+    float: right;
+    width: 50px;
+    height: 30px;
+    background: #2727d6;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.comment-sh
+{
+    width: 90%;
+    margin:20px auto;
+    padding: 10px;
+    background: #fff;
+}
+.comment-sh .com .user-pr{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.comment-sh .com p 
+{ 
+    color: #2727d6;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.com-place
+{
+    padding: 10px;
+}
+.comment-sh .com .user-sh{
+    width: 90%;
+    margin: auto;
+    margin-bottom:10px ;
+}
+
+.friends_bar
+{
+    padding: 10px;
+    color: #555;
+
+}
+.friends_bar  h3
+{
+
+    width: 100%;
+    text-align: center;
+}
+.friends_bar .friends
+{
+    clear: both;
+    font-size: 15px;
+    color: rgb(59, 59, 184);
+    font-weight: bold;
+}
+.friends_bar .friends img
+{
+   width: 80px;
+   float: left;
+   margin: 10px;
+   height: 80px;
+   
+}
+.friends_bar .friends p 
+{
+    float: left;
+    margin-top: 20px;
+
+}
+
